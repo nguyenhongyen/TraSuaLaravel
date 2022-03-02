@@ -1,0 +1,16 @@
+form.mx-auto.dangky{
+    width: 50%;
+    border: 1px solid #849c8e;
+    padding: 17px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px #b6bdba;
+}
+form.mx-auto.dangnhap{
+    width: 50%;
+    border: 1px solid #849c8e;
+    padding: 17px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px #b6bdba;
+}

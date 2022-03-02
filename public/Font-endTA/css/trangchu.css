@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* top bar */
+.wrapper .top-bar {
+    background-color: rgb(16, 133, 69);
+}
+/* header */
+a.nav-link.p-4.text-dark {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/* nút tìm kiếm */
+.search-box{
+
+
+    height:57px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover .search-text{
+    width:240px;
+    padding:0 6px;
+
+
+}
+.search-box:hover{
+    border: 1px solid green;
+      background-color:white;
+
+}
+.search-box:hover .search-btn{
+   background-color: green;
+   color: white;
+}
+.search-btn{
+    float:right;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:white;
+    color:green;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.search-text{
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding:0;
+    /* color:white; */
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+}
+/* slider */
+img.d-block.w-100 {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* banner link */
+img.card-img-top {
+    height: 350px;
+
+}
+    /* sản phẩm nổi bât */
+h4.text-center{
+    color: #105a10;
+}
+
+.pt-2{
+    padding: 5px;
+}
+.thumbnail{
+    position: relative;
+    overflow: hidden;
+    padding:5px 5px 0;
+}
+.thumbnail a{
+   display: block;
+}
+.thumbnail a img{
+    transition: all 0.5s;
+}
+.thumbnail:hover a img{
+   -webkit-transform: scale(1.1,1.1);
+   -moz-transform:scale(1.1,1.1);
+   -o-transform:scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+
+    -webkit-transform-origin: inherit;
+    -moz-transform-origin: inherit;
+    -o-transform-origin: inherit;
+    transform-origin: inherit;
+    transition: all 0.5s;
+}
+.thumbnail:hover .view-detail-layer{
+    bottom: 0;
+}
+.thumbnail .view-detail-layer{
+    width:100%;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: -55px;
+    background-color: white;
+     border:1px solid #1ea31e;
+     color:#1ea31e;
+    color: rgb(44, 27, 27);
+    text-align: center;
+    line-height: 50px;
+    -webkit-transition: all 0.45s ease;
+    -moz-transition: all 0.45s ease;
+    -o-transition: all 0.45s ease;
+    transition: all 0.45s ease;
+
+
+}
+.view-detail-layer:hover{
+
+    background-color:#1ea31e ;
+
+}
+.view-detail-layer:hover a{
+     color:white;
+
+}
+.view-detail-layer a{
+   text-decoration: none;
+   height:33px;
+   line-height: 33px;
+   color:#1ea31e;
+   width:auto;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+
+
+/* jumbotron */
+.jumbotron{
+  background-image: url('../img/banner/binhtra.jpg');
+  background-position: top;
+}
+/* footer */
+footer{
+    background-color: #e6ebe6;
+
+
+
+}
